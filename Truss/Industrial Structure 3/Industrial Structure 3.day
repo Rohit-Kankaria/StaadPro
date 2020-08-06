@@ -1,0 +1,120 @@
+                          PROGRAM: STAAD.Pro
+                          VERSION: 20.07.11.33     
+                10:13:24: 8  ENTERING STAAD                                    
+                10:13:24:11  entering mainn                                    
+                10:13:24:11  START JOB INFORMATION                             
+                10:13:24:11  INPUT WIDTH 79                                    
+                10:13:24:11  UNIT METER KN                                     
+                10:13:24:11  JOINT COORDINATES                                 
+                10:13:24:11  ENTERING JOINTC                                   
+                10:13:24:12  JOINTC NEWJ                                 200000
+                10:13:24:12  MAX NODE NO.                                   101
+                10:13:24:12  MEMBER INCIDENCES                                 
+                10:13:24:13  DEFINE MATERIAL START                             
+                10:13:24:13  MEMBER PROPERTY INDIA                             
+                10:13:24:19    ++ Finished Reading Member Properties ...       
+                10:13:24:19  CONSTANTS                                         
+                10:13:24:19  SUPPORTS                                          
+                10:13:24:19  ENTERING SUPPORT                                  
+                10:13:24:20  LOAD 1 LOADTYPE DEAD                              
+                10:13:24:20  DUPLICATE ELEMENT CHECK                           
+                10:13:24:20  CHECKING STRUCTURAL INTEGRITY                     
+                10:13:24:20  CHECK UNCONNECTED JOINTS AND                      
+                10:13:24:20  CALCULATE MAX JOINT CONNECTIVITY                  
+                10:13:24:20  CHECK MULTIPLE STRUCTURES                         
+                10:13:24:20  MINIMIZING MATRIX BANDWIDTH                       
+                10:13:24:20  ENTERING RENMBR2                                  
+                10:13:24:21  MINMAX=                                         84
+                10:13:24:21  INTERCHANGES                                     8
+                10:13:24:21  MAXGBND=                                        14
+                10:13:24:21  MAXDIFF=                                        15
+                10:13:24:21  MINMAX =                                        14
+                10:13:24:21  ENTERING SUPPORT                                  
+                10:13:24:21  NRJOLD                                           0
+                10:13:24:22  SUPPORT NOLD                                     0
+                10:13:24:22  SUPPORT N                                      252
+                10:13:24:22  BEFORE LOADPR                                     
+                10:13:24:23  REOPEN AS DIR                                    0
+                10:13:24:23  ENTER LOADPR                                      
+                10:13:24:23  PERFORM ANALYSIS PRIN                             
+                10:13:24:23  pdel iter                                        0
+                10:13:24:23  MAXIMUM E =                           2.973273E+04
+                10:13:24:23  MINIMUM E =                           2.973273E+04
+                10:13:24:24  MBW DOF BAND=                                   39
+                10:13:24:24  NUMBER OF PRIMARY CASES                          3
+                10:13:24:24  NUMBER OF CASES                                 28
+                10:13:24:24  #OF CASES W/ELEM INMEMORY                       28
+                10:13:24:24  MEMORY FOR MEMBER LOADS                      78288
+                10:13:24:25  MEMORY FOR DISPLACEMENTS                     16464
+                10:13:24:25  BEFORE SOLVER 1                                   
+                10:13:24:25  Start Input for Next Load Case                    
+                10:13:24:26  case no=    1 seq. no=   1 idynl= 0               
+                10:13:24:26  MASSSET                                          0
+                10:13:24:26  LOADEND ISLAVE                                   0
+                10:13:24:26  Start Input for Next Load Case                    
+                10:13:24:26  case no=    2 seq. no=   2 idynl= 0               
+                10:13:24:27  LOADEND ISLAVE                                   0
+                10:13:24:27  Start Input for Next Load Case                    
+                10:13:24:27  case no=    3 seq. no=   3 idynl= 0               
+                10:13:24:27  LOADEND ISLAVE                                   0
+                10:13:24:27  NVPREV                                           0
+                10:13:24:27  AMAXNON                               4.921260E+00
+                10:13:24:28  IRECSIZL=                                     4000
+                10:13:24:28  MTX BLOCKSIZE=                                9828
+                10:13:24:28  MI=                                            252
+                10:13:24:28  NORECL=                                          3
+                10:13:24:28  NORECL1=                                         1
+                10:13:24:29  IWORD=                                       32000
+                10:13:24:29  JRECSIZE=                                     4000
+                10:13:24:29  IWORDJ=                                      32000
+                10:13:24:29  IBYTE=                                           4
+                10:13:24:29  JOINTS=                                         98
+                10:13:24:29  MEMBERS=                                       233
+                10:13:24:29  PLATES =                                         0
+                10:13:24:29  SOLIDS =                                         0
+                10:13:24:30  NO. OF EQUATIONS=                              252
+                10:13:24:30  idyn=                                            0
+                10:13:24:30  ipd=                                             0
+                10:13:24:30  icablanl=                                        0
+                10:13:24:31  ++ Processing Element Stiffness Matrix.           
+                10:13:24:33  BANDWIDTH FROM ELEMENTS                         39
+                10:13:24:33  NV1                                              3
+                10:13:24:33  ++ Processing Global Stiffness Matrix.            
+                10:13:24:33  MBAND                                           39
+                10:13:24:33  NBLOCK                                           1
+                10:13:24:33  NEQB                                           252
+                10:13:24:34  NBLK                                             1
+                10:13:24:34    ++ Finished Processing Global Stiffness Matrix. 
+                10:13:24:35  ++ Processing Triangular Factorization-2.         
+                10:13:24:35  NBLK                                             1
+                10:13:24:37  NBLOCK=                                          1
+                10:13:24:38    ++ Finished Triangular Factorization.           
+                10:13:24:38  ++ Calculating Joint Displacement.                
+                10:13:24:38  forward substitute                                
+                10:13:24:39  back substitute                                   
+                10:13:24:39  end redld                                         
+                10:13:24:39    ++ Finished Joint Displacement Calculation.     
+                10:13:24:40  ++ Calculating Element Forces & Reactions.        
+                10:13:24:45  COMBINATION CASES=                               0
+                10:13:24:45  MAX CM MEMORY (KILOWORDS)                      138
+                10:13:24:45  AFTER SOLVER 1                                    
+                10:13:24:45  REOPEN AS SEQ                                    0
+                10:13:24:45  FINISH                                            
+                10:13:24:49  All Commands FINISHed                             
+                10:13:24:49  DATASAVE for SPRO GUI                             
+                10:13:24:50  ++ Creating Displacement File (DSP)...            
+                10:13:24:50  ++ Creating Reaction File (REA)...                
+                10:13:24:57  ++ Creating Section Force File (BEN)...           
+                10:13:24:57  ENTERING SECTNM110 IQ=                         233
+                10:13:24:57               NSEC=                              11
+                10:13:24:57             ISECTN=                               0
+                10:13:24:60  sectnm110 do 925                                  
+                10:13:24:65  ++ Creating Section Force File (BMD)...           
+                10:13:24:68  ++ Creating Section Displace File (SEC)...        
+                10:13:24:69  ENTERING ENVLP1 ITYP1=                          -5
+                10:13:24:69  SECT DISPLACE                                     
+                10:13:24:69  envelp do 606                                     
+                10:13:24:72  ++ Creating Section Displace File (SCN)...        
+                10:13:24:76  ALLOCATED CM MEMORY (KILOWORDS)              80000
+                10:13:24:76  MAX CM MEMORY (KILOWORDS)                      138
+                10:13:24:76  DBS LONG SEC NAME                                 
